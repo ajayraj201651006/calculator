@@ -5,7 +5,7 @@ class  Result extends Component {
 	render() {
 		return(
                 <div className={classes.Result}>
-                    
+                    <h1>Hello</h1>
                 </div>
 			);
 	}
