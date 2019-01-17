@@ -1,10 +1,14 @@
-import React from 'react';
+import React, { Component } from 'react';
 import classes from './Result.css';
 
-const result = () => (
-        <div className={classes.Result}>
-            <h1>Hello</h1>
-        </div>
-	);
+class  Result extends Component {
+	render() {
+		return(
+                <div className={classes.Result}>
+                    
+                </div>
+			);
+	}
+} 
 
-export default result
+export default Result

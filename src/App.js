@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Aux from './hoc/Auxes';
 import Layout from './containers/Layout/Layout';
 import Result from './components/Result/Result';
 import classes from './App.css';
@@ -6,11 +7,11 @@ import classes from './App.css';
 class App extends Component {
   render() {
     return (
-      <div className={classes.App}>
+      <Aux>
         <Layout>
-          <h1>Hello</h1>
+         
         </Layout>
-      </div>
+      </Aux>
     );
   }
 }
