@@ -1,0 +1,25 @@
+.Keypads {
+     display:flex;
+     flex-flow: column;
+     width:100%;
+}
+
+.Column1 {
+	display: flex;
+	flex-flow: row;
+}
+
+.Column2 {
+	display: flex;
+	flex-flow: row;
+}
+
+.Column3 {
+	display: flex;
+	flex-flow: row;
+}
+
+.Column4 {
+	display: flex;
+	flex-flow: row;
+}
